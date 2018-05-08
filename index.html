@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		#columns{
+			background: #666;
+			color: white;
+			line-height: 20px;
+			font-family:Verdana;
+			-moz-column-count:5;
+			-moz-column-rule-color:#000;
+			-moz-column-rule-style:solid;
+			-moz-column-gap:2.5em;
+			-webkit-column-count:5;
+			-webkit-column-rule-color:green;
+			-webkit-column-rule-style:ridge;
+			-webkit-column-gap:2.5em;
+		}
+		h3{
+			background-color: silver;
+			-moz-column-span:all;
+			-webkit-column-span:all;
+			column-span:all;
+			letter-spacing: 5px;
+			}
+		h3:hover{
+			animation-name: out;
+			animation-duration: 0.9s;
+			 }
+		
+		#fist{
+			width: 50%;
+			border-width: 14px;
+			border-color:cyan;
+			border-style: solid;
+			border-top-style: solid;
+			border-top-color: pink;
+			border-bottom-color: pink;
+			border-top-style: solid;
+			border-radius: 10%;
+		}
+		#last-one{
+			width:120px;
+			height: 200px;
+			border-radius: 50%;
+			border-style: solid;
+			box-shadow: 10px 0px 20px 5px pink;
+		}
+		#face{
+			width: 120px;
+			border-radius: 58%;
+			box-shadow: 0px 0px 14px 8px pink;
+			height: 120px;
+		}
+		@keyframes face-animation{
+			to{
+				transform: scale(1.5,1.5);
+			}
+		}
+
+		#face:hover{
+			animation-name: face-animation;
+			animation-duration: 3s;
+		}
+		#heder{box-shadow: 0px 0px 5px 10px #1ac1a5;
+			border:20px;
+			border-style:solid;
+			border-color:#ff3399;
+			border-top-color:#9966ff;
+			border-bottom-color:#9966ff;
+			border-radius: 50%;
+			background-color:pink; 
+			width:520px;
+			height:90px;
+			font-size:50px;
+			}
+			@keyframes heder-animation{
+				to{
+					transform: scale(1.1);
+				}
+			}
+		#heder:hover{
+			animation-name: face-animation;
+			animation-duration: 4s;
+		}
+		#new{box-shadow: 0px 0px 5px 10px #1ac1a5;
+			color:white;
+			border: 10px;
+			border-style: solid;
+			border-color:#000;
+			height: 20px;
+			width: 200px;
+			border-radius: 70%;
+		}
+		@keyframes new-animation{
+				to{
+					transform: scale(16 16);
+				}
+			}
+		#new:hover{
+			animation-name: face-animation;
+			animation-direction: 3s;
+		}
+		#border1{font-size: 3em;
+		 background:silver;
+		 color:black;
+		 text-shadow: 2px 2px 2px  red,
+		 4px 4px 4px green,5px 5px 6px blue;
+
+		}
+		
+	</style>
+</head>
+<body>
+	<center><div id="heder">
+		<center>Bangala News</center>
+	</div></center>
+		<div id="columns">
+		<center><h3 id="new">
+		<center>Header1</center></h3></center>
+		<center>
+			<img id="face" src="Ileana-face.jpg">
+		</center>
+		<p>
+			farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .
+		</p>
+		<center><h3 id="new">
+		<center>Header1</center></h3></center>
+		<center>	
+			<img id="fist" src="elina.jpeg">
+		</center>
+		<p>
+			farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .vfarha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .vvvfarha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .
+		</p>
+		<center><h3 id="new">
+		<center>Header1</center></h3></center>
+		<center>
+			<img id="last-one" src="elina.jpeg">
+		</center>
+		<p>
+			farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .vvvfarha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .farha emran, faruk yesmin forida .
+		</p>
+
+	</div>
+	<div id="border1">
+	<p>
+		<center>i love puchi.i love puchi.<br/>i love puchi.i love puchi.<br/>i love puchi.i love puchi.<br/>i love puchi.i love puchi.<br/>i love puchi.i love puchi</center>
+	</p>
+	</div>
+</body>
+</html>
